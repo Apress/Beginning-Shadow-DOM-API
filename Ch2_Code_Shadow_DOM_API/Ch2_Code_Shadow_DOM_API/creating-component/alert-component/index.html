@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A Simple Component using Shadow DOM API</title>
+    <meta charset="utf-8" />
+    <script
+      src="https://unpkg.com/alert-component/script.js?module"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <span>
+      <my-alert>This is an alert</my-alert>
+    </span>
+    <span>
+      <my-alert class="info">This is an information alert</my-alert>
+    </span>
+    <span>
+      <my-alert class="warn">This is an warning alert</my-alert>
+    </span>
+  </body>
+</html>

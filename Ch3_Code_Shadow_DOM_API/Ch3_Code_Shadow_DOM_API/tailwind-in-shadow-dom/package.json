@@ -1,0 +1,32 @@
+{
+  "name": "@example/with-web-components",
+  "description": "Web Components example",
+  "version": "1.0.8",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "bugs": "https://github.com/tw-in-js/twind/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tw-in-js/twind.git",
+    "directory": "examples/with-web-components"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@twind/core": "1.1.3",
+    "@twind/preset-autoprefix": "1.0.7",
+    "@twind/preset-tailwind": "1.1.4",
+    "@twind/with-web-components": "1.1.3"
+  },
+  "devDependencies": {
+    "vite": "^4.0.1"
+  }
+}

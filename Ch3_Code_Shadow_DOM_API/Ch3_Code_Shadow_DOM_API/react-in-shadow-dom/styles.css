@@ -1,0 +1,49 @@
+@import "@radix-ui/colors/black-alpha.css";
+@import "@radix-ui/colors/violet.css";
+
+/* reset */
+button {
+  all: unset;
+}
+
+#container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto 0 auto;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+#react-root {
+  padding: 10px;
+  background-color: #d3d3d3;
+  display: flex;
+  height: 50px;
+}
+
+.CheckboxRoot {
+  background-color: #ffffff;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px var(--black-a7);
+}
+.CheckboxRoot:hover {
+  background-color: var(--violet-3);
+}
+.CheckboxRoot:focus {
+  box-shadow: 0 0 0 2px #000000;
+}
+
+.CheckboxIndicator {
+  color: var(--violet-11);
+}

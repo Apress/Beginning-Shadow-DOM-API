@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Testing Shadow DOM with Alpine.js</title>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"
+    ></script>
+    <style>
+      span {
+        width: 32px;
+        display: inline-block;
+        text-align: center;
+      }
+
+      button {
+        width: 32px;
+        height: 32px;
+        border: none;
+        border-radius: 6px;
+        background-color: #a9a9a9;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Web Component Reactive State - Shadow DOM</h2>
+    <script src="./reactiveshadow.js"></script>
+    <my-reactive-shadow start="33"></my-reactive-shadow>
+    <button @click="dec">-</button>
+    <span x-text="counter">55</span>
+    <button @click="inc">+</button>
+  </body>
+</html>

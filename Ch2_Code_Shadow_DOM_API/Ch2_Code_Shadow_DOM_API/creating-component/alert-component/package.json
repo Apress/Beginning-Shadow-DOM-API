@@ -1,0 +1,30 @@
+{
+  "author": "Alex Libby",
+  "name": "@shadowdombook/alert-component",
+  "version": "0.1.1-alpha",
+  "type": "module",
+  "description": "An Alert Dialog Web Component for my Shadow DOM API book",
+  "main": "script.js",
+  "module": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowdombook/alert-dialog.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shadowdombook/alert-dialog/issues"
+  },
+  "homepage": "https://github.com/shadowdombook/alert-dialog#readme",
+  "dependencies": {
+    "@shadowdombook/alert-component": "^0.1.0-alpha"
+  }
+}

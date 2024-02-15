@@ -1,0 +1,15 @@
+body {
+  width: 500px;
+  margin: 40px auto;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+p {
+  color: #f00;
+}
+
+my-paragraph::part(test) {
+  background-color: darkgrey;
+  color: white;
+}

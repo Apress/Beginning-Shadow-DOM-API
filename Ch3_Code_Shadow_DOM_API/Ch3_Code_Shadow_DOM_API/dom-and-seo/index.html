@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple Template Demo</title>
+    <script src="testLightDOM.js" defer></script>
+    <script src="testShadowDOM.js" defer></script>
+    <script src="testAttributeApproach.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Testing Different DOMs for SEO</h1>
+
+    <wc-header-light-dom>
+      <h2>Header in the Light DOM</h2>
+    </wc-header-light-dom>
+
+    <wc-header-just-slot>Header with Just a Slot</wc-header-just-slot>
+
+    <wc-header-no-slot text="Header without a Slot"></wc-header-no-slot>
+  </body>
+</html>
